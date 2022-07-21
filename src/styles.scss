@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+/** color code **/
+$default: #1a63b6;
+$add: #1a63b6;
+$save: #1a63b6;
+$clear: #e20202;
+$approved: #61b15a;
+$confirmed: #120078;
+$delete: #ec5858;
+$edit: #01b6c6;
+//$update: #661762;
+$update: #9c2195;
+$find: #30475e;
+$migrate: #9088d4;
+$preview: #31326f;
+$received: #61b15a;
+$rejected: #ec5858;
+$search: #3797a4;
+$view: #3797a4;
+$print: #22419c;
+$draft: #3b3333;
+$skip: #3b3333;
+$csv: #2196f3;
+$xls: #689f38;
+$pdf: #dd0031;
+$invoice: #1869c6;
+$pay: #217011;
+
+
+/**  margin & padding **/
+
+$spaceamounts: (.25,.50,.75,1,1.25,1.50,1.75,2,3,5); // Adjust this to include the pixel amounts you need.
+$sides: (top, bottom, left, right);
+
+@each $space in $spaceamounts{
+  @each$side in $sides{
+    .m-#{str-slice($side,0,1)}-
+  }
+}
